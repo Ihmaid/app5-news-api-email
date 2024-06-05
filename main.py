@@ -28,3 +28,9 @@ message = "Subject: Today's news" + "\n" + message
 # This string method removes the non ASCII characters
 message = message.encode("utf-8")
 send_email(message)
+
+# Code to download an image from web with Python
+# url = "image url"
+# response = requests.get(url)
+# with open("image.jpg", "wb") as file:
+#    file.write(response.content)
